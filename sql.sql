@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS `mplanner`.`clients` (   `idclients` INT NOT NULL AUTO_INCREMENT,   `forename` VARCHAR(45) NULL,   `surname` VARCHAR(45) NULL,   `mdate` DATE NULL,   PRIMARY KEY (`idclients`)) ENGINE = InnoDB

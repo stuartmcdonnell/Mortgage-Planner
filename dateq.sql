@@ -1,0 +1,1 @@
+SELECT * FROM clients WHERE mDate BETWEEN date('now') AND date('now', '+3 months');
